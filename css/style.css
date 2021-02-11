@@ -1,363 +1,398 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-        url('../fonts/Roboto-Bold.woff') format('woff'),
-        url('../fonts/Roboto-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-        url('../fonts/Roboto-Regular.woff') format('woff'),
-        url('../fonts/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: 'KievitPro';
-    src: url('../fonts/KievitPro-Regular.woff2') format('woff2'),
-        url('../fonts/KievitPro-Regular.woff') format('woff'),
-        url('../fonts/KievitPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "KievitPro";
+  src: url("../fonts/KievitPro-Regular.woff2") format("woff2"),
+    url("../fonts/KievitPro-Regular.woff") format("woff"),
+    url("../fonts/KievitPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: 'KievitPro';
-    src: url('../fonts/KievitPro-Bold.woff2') format('woff2'),
-        url('../fonts/KievitPro-Bold.woff') format('woff'),
-        url('../fonts/KievitPro-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "KievitPro";
+  src: url("../fonts/KievitPro-Bold.woff2") format("woff2"),
+    url("../fonts/KievitPro-Bold.woff") format("woff"),
+    url("../fonts/KievitPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
 }
 body {
-    background: #f9f7f2;
+  background: #f9f7f2;
 }
 main {
-    background: #ffffff;
-    margin-top: 110px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  background: #ffffff;
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .container {
-    max-width: 878px;
-    margin: auto;
+  max-width: 878px;
+  margin: auto;
 }
 .overview {
-    margin-left: 29px;
+  margin-left: 29px;
 }
 .overview-title {
-    font-family: 'KievitPro', sans-serif;
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 35px;
-    letter-spacing: 0.03em;
-    color: #000000;
-    max-width: 373px;
-    margin: 0;
+  font-family: "KievitPro", sans-serif;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  max-width: 373px;
+  margin: 0;
 }
 .overview-description {
-    font-family: 'KievitPro', sans-serif;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 25px;
-    color: #000000;
-    max-width: 363px;
-    margin-bottom: 6px;
-    margin-top: 19px;
+  font-family: "KievitPro", sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
+  max-width: 363px;
+  margin-bottom: 6px;
+  margin-top: 19px;
 }
 .more-description {
-    font-family: 'KievitPro', sans-serif;
-    font-size: 17px;
-    line-height: 25px;
-    color: #000000;
-    text-decoration: none;
+  font-family: "KievitPro", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 3px solid #ff4641;
 }
-.more-description:hover {
-    border-bottom: 3px solid #ff4641;
-}
+
 .feedback {
-    background: #ffffff;
-    padding: 0px 30px 0px 31px;
+  background: #ffffff;
+  padding: 0px 30px 0px 31px;
 }
 .feedback-title {
-    font-family: 'KievitPro', sans-serif;
-    font-size: 29px;
-    line-height: 35px;
-    letter-spacing: 0.03em;
-    color: #000000;
-    padding: 35px 0px 21px 0px;
-    margin: 0;
+  font-family: "KievitPro", sans-serif;
+  font-size: 29px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  padding: 35px 0px 21px 0px;
+  margin: 0;
 }
 .cards {
-    display: flex;
-    overflow: hidden;
+  display: flex;
+  overflow: hidden;
 }
 .card {
-    background: #f9f7f2;
-    min-width: 300px;
-    margin-right: 20px;
-    padding: 26px 0px 11px 19px;
+  background: #f9f7f2;
+  min-width: 300px;
+  margin-right: 20px;
+  padding: 26px 0px 11px 19px;
 }
 .head-card {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .user-name {
-    font-family: 'KievitPro', sans-serif;
-    font-size: 15px;
-    line-height: 17px;
-    color: #000000;
-    padding-left: 10px;
+  font-family: "KievitPro", sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  padding-left: 10px;
 }
 .main-card {
-    padding-top: 28px;
+  padding-top: 28px;
 }
 .card-title {
-    font-family: 'KievitPro', sans-serif;
-    font-size: 13px;
-    line-height: 17px;
-    letter-spacing: 0.464286px;
-    text-transform: uppercase;
-    color: #212121;
+  font-family: "KievitPro", sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.464286px;
+  text-transform: uppercase;
+  color: #212121;
 }
 .red {
-    color: #fc4f1e;
+  color: #fc4f1e;
 }
 .card-description {
-    padding-top: 12px;
-    padding-bottom: 8px;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
-    color: #000000;
-    max-width: 272px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  max-width: 272px;
+}
+.pop-up {
+  display: flex;
+}
+.imgage-opacity {
+  position: relative;
+}
+.opacity {
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+}
+.image-text {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
 }
 .card-img {
-    margin-right: 5px;
-    margin-bottom: 26px;
+  margin-right: 5px;
+  margin-bottom: 26px;
 }
 .footer-card {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 25px;
-    color: #9d9d9d;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 25px;
+  color: #9d9d9d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .comment::before {
-    content: '';
-    width: 4px;
-    height: 4px;
-    background: #9d9d9d;
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 50%;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background: #9d9d9d;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
 }
 .like {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .btn-feedback {
-    padding: 10px 23px 13px 24px;
-    font-family: 'KievitPro', sans-serif;
-    font-size: 15px;
-    line-height: 17px;
-    color: #212121;
-    border: 2px solid #ff4641;
-    border-radius: 2px;
-    background: #fff;
-    margin-bottom: 33px;
-    margin-top: 32px;
-    cursor: pointer;
+  padding: 10px 23px 13px 24px;
+  font-family: "KievitPro", sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  color: #212121;
+  border: 2px solid #ff4641;
+  border-radius: 2px;
+  background: #fff;
+  margin-bottom: 33px;
+  margin-top: 32px;
+  cursor: pointer;
 }
 .all-feedback {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .pagination {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .pagination-icon {
-    margin-left: 13px;
+  margin-left: 13px;
 }
 .chat-user {
-    margin-top: 50px;
-    min-width: 415px;
-    margin-bottom: 134px;
+  margin-top: 50px;
+  min-width: 415px;
+  margin-bottom: 134px;
 }
 .chat-title {
-    font-family: 'KievitPro', sans-serif;
-    font-size: 29px;
-    line-height: 35px;
-    letter-spacing: 0.03em;
-    color: #000000;
-    margin: 0;
-    margin-bottom: 25px;
+  font-family: "KievitPro", sans-serif;
+  font-size: 29px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 25px;
 }
 .head-chat {
-    background: #ffffff;
-    padding: 27px 20px 27px 26px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #ececec;
+  background: #ffffff;
+  padding: 27px 20px 27px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
 .info-name {
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
 }
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 .user-description {
-    font-family: 'KievitPro', sans-serif;
-    font-size: 13px;
-    line-height: 17px;
-    color: #ff4641;
+  font-family: "KievitPro", sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: #ff4641;
 }
 .main-chat {
-    padding: 4px 13px;
-    background: #fff;
+  padding: 4px 13px;
+  background: #fff;
 }
 
 .date-publications {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 25px;
-    text-align: right;
-    color: #9d9d9d;
-    margin-left: 64px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 25px;
+  text-align: right;
+  color: #9d9d9d;
+  margin-left: 64px;
 }
 
 .info-message {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 .message {
-    margin-left: 19px;
-    font-family: 'KievitPro', sans-serif;
-    font-size: 15px;
-    line-height: 24px;
-    color: #000000;
-    max-width: 265px;
+  margin-left: 19px;
+  font-family: "KievitPro", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  max-width: 265px;
+  margin-bottom: 0;
 }
 .bacgr {
-    background: #f9f7f2;
+  background: #f9f7f2;
 }
 .scroll::after {
-    content: '';
-    background: #ff4641;
-    width: 3px;
-    height: 111px;
-    display: block;
-    position: relative;
-    top: 117px;
-    left: 71px;
+  content: "";
+  background: #ff4641;
+  width: 3px;
+  height: 111px;
+  display: block;
+  position: relative;
+  top: 102px;
+  left: 71px;
 }
 .footer-chat {
-    background: #ffffff;
-    border-top: 1px solid #ececec;
-    padding: 26px 19px 28px 26px;
-    display: flex;
-    align-items: center;
+  background: #ffffff;
+  border-top: 1px solid #ececec;
+  padding: 26px 19px 28px 26px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 .input-message {
-    font-family: 'KievitPro', sans-serif;
-    font-size: 15px;
-    line-height: 24px;
-    color: #a3a2a2;
-    padding: 14px 30px 16px 24px;
-    background: #ffffff;
-    border: 1px solid #ececec;
-    margin-left: 19px;
-    margin-right: 15px;
-    max-width: 270px;
+  font-family: "KievitPro", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #a3a2a2;
+  padding: 14px 30px 16px 24px;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  margin-left: 19px;
+  min-width: 270px;
 }
 .btn-submit {
-    border: none;
-    background: #fff;
-    cursor: pointer;
-    padding: 5px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
 }
-
+.form-wrapper {
+  display: flex;
+}
 .chats {
-    display: flex;
+  display: flex;
 }
 .administrator {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 .vertical-line {
-    height: 865px;
-    width: 2px;
-    margin-left: 24px;
-    margin-top: 50px;
-    background: #ebe9e4;
+  height: 825px;
+  width: 2px;
+  margin-left: 24px;
+  margin-top: 50px;
+  background: #ebe9e4;
 }
 @media (max-width: 1200px) {
 }
 @media (max-width: 991px) {
-    .container {
-        max-width: 760px;
-    }
-    .card:last-child {
-        display: none;
-    }
-    .chats {
-        display: block;
-    }
-    .vertical-line {
-        display: none;
-    }
-    .chat-user {
-        max-width: 415px;
-        margin-bottom: 70px;
-    }
+  .container {
+    max-width: 760px;
+  }
+  .card:last-child {
+    display: none;
+  }
+  .chats {
+    display: block;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .chat-user {
+    max-width: 415px;
+    margin-bottom: 70px;
+  }
+  .administrator {
+    margin-left: 0;
+  }
 }
 @media (max-width: 768px) {
-    .container {
-        max-width: 560px;
-    }
-    .main {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 20px;
-        margin-top: 30px;
-    }
-    .main-img {
-        margin-bottom: 15px;
-    }
-    .card {
-        margin-right: 10px;
-    }
-    .feedback {
-        padding: 0px 20px;
-    }
-    .chat-user {
-        margin-bottom: 54px;
-    }
+  .container {
+    max-width: 560px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-top: 30px;
+  }
+  .main-img {
+    margin-bottom: 15px;
+  }
+  .card {
+    margin-right: 10px;
+  }
+  .feedback {
+    padding: 0px 20px;
+  }
+  .chat-user {
+    margin-bottom: 54px;
+  }
+  .administrator {
+    margin-left: 0;
+  }
 }
 @media (max-width: 576px) {
-    .container {
-        max-width: 95%;
-    }
-    .card {
-        flex-wrap: wrap;
-    }
+  .container {
+    max-width: 95%;
+  }
+  .card {
+    flex-wrap: wrap;
+  }
+  .administrator {
+    margin-left: 0;
+  }
 }
