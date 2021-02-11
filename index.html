@@ -1,712 +1,498 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Тестовое задание" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Тестовое задание" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Travel ask</title>
+    <title>Travel ask</title>
 
-        <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
 
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <div class="container">
-            <main class="main">
-                <picture>
-                    <source type="image/webp" srcset="img/barcelona.webp" />
-                    <source type="image/jpg" srcset="img/barcelona.jpg" />
-                    <img
-                        src="img/barcelona.jpg"
-                        alt="image: Barcelona"
-                        class="main-img"
-                    />
-                </picture>
-                <div class="overview">
-                    <h2 class="overview-title">Барселона — обзор города</h2>
-                    <p class="overview-description">
-                        Барселона с её золотистыми пляжами, архитектурными
-                        шедеврами Гауди, многочисленными фестивалями и
-                        гастрономическим разнообразием понравилась мне в первый
-                        же день пребывания и стала местом, в котором...
-                    </p>
-                    <a href="#" class="more-description">Читать дальше</a>
-                </div>
-            </main>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <picture>
+          <source type="image/webp" srcset="img/barcelona.webp" />
+          <source type="image/jpg" srcset="img/barcelona.jpg" />
+          <img
+            src="img/barcelona.jpg"
+            alt="image: Barcelona"
+            class="main-img"
+          />
+        </picture>
+        <div class="overview">
+          <h2 class="overview-title">Барселона — обзор города</h2>
+          <p class="overview-description">
+            Барселона с её золотистыми пляжами, архитектурными шедеврами Гауди,
+            многочисленными фестивалями и гастрономическим разнообразием
+            понравилась мне в первый же день пребывания и стала местом, в
+            котором...
+          </p>
+          <a href="#" class="more-description">Читать дальше</a>
         </div>
-        <div class="container">
-            <section class="feedback">
-                <h2 class="feedback-title">Отзывы о Барселоне</h2>
-                <div class="cards">
-                    <div class="card">
-                        <div class="head-card">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img.png"
-                                />
-                                <img
-                                    src="img/user-img.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <span class="user-name">Наталия Полянская</span>
-                        </div>
-                        <div class="main-card">
-                            <span class="card-title">
-                                <span class="card-title red">БАРСЕЛОНА</span>
-                                — О городе:
-                            </span>
-                            <p class="card-description">
-                                Барселона – моя третья большая любовь, после
-                                Вены и Крита. Это город, в который я каждый раз
-                                возвращаюсь с огромным удовольствием, всем
-                                рекомендую хоть раз там побывать и осмотреть ...
-                            </p>
-                            <div class="pop-up">
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img1.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="iimg/card-img1.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img1.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img2.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img2.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img2.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img3.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img3.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img3.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    /> </picture
-                                ><picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img4.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img4.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img4.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                        <div class="footer-card">
-                            <span class="date-publication"
-                                >около 1 года назад</span
-                            >
-                            <span class="comment">9 комментариев</span>
-                            <span class="like"
-                                ><img
-                                    src="img/like.svg"
-                                    alt="Icon: like"
-                                />9</span
-                            >
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="head-card">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img.png"
-                                />
-                                <img
-                                    src="img/user-img.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <span class="user-name">Наталия Полянская</span>
-                        </div>
-                        <div class="main-card">
-                            <span class="card-title">
-                                <span class="card-title red">БАРСЕЛОНА</span>
-                                — О городе:
-                            </span>
-                            <p class="card-description">
-                                Плюсы города: весь город одни плюсы! Минусы
-                                города: не видела. В наш марафон по Европе не
-                                вписалось 2 испанских города от усталости -
-                                решили остаток путешествия провести в Барселоне
-                                ...
-                            </p>
-                            <div class="pop-up">
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img1.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="iimg/card-img1.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img1.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img2.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img2.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img2.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img3.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img3.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img3.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    /> </picture
-                                ><picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img4.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img4.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img4.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                        <div class="footer-card">
-                            <span class="date-publication"
-                                >около 1 года назад</span
-                            >
-                            <span class="comment">9 комментариев</span>
-                            <span class="like"
-                                ><img
-                                    src="img/like.svg"
-                                    alt="Icon: like"
-                                />9</span
-                            >
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="head-card">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img.png"
-                                />
-                                <img
-                                    src="img/user-img.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <span class="user-name">Наталия Полянская</span>
-                        </div>
-                        <div class="main-card">
-                            <span class="card-title">
-                                <span class="card-title red">БАРСЕЛОНА</span>
-                                — О городе:
-                            </span>
-                            <p class="card-description">
-                                Барселона – моя третья большая любовь, после
-                                Вены и Крита. Это город, в который я каждый раз
-                                возвращаюсь с огромным удовольствием, всем
-                                рекомендую хоть раз там побывать и осмотреть ...
-                            </p>
-                            <div class="pop-up">
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img1.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="iimg/card-img1.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img1.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img2.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img2.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img2.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                                <picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img3.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img3.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img3.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    /> </picture
-                                ><picture>
-                                    <source
-                                        type="image/webp"
-                                        srcset="img/card-img4.webp"
-                                    />
-                                    <source
-                                        type="image/jpg"
-                                        srcset="img/card-img4.jpg"
-                                    />
-                                    <img
-                                        src="img/card-img4.jpg"
-                                        alt="Img"
-                                        class="card-img"
-                                    />
-                                </picture>
-                            </div>
-                        </div>
-                        <div class="footer-card">
-                            <span class="date-publication"
-                                >около 1 года назад</span
-                            >
-                            <span class="comment">9 комментариев</span>
-                            <span class="like"
-                                ><img
-                                    src="img/like.svg"
-                                    alt="Icon: like"
-                                />9</span
-                            >
-                        </div>
-                    </div>
-                </div>
-                <div class="all-feedback">
-                    <button class="btn-feedback">Все отзывы</button>
-                    <span class="pagination">
-                        <img
-                            src="img/pagination-redsvg.svg"
-                            alt="Icon: Pagination"
-                            class="pagination-icon"
-                        />
-                        <img
-                            src="img/pagination-black.svg"
-                            alt="Icon: Pagination"
-                            class="pagination-icon"
-                        />
-                        <img
-                            src="img/pagination-black.svg"
-                            alt="Icon: Pagination"
-                            class="pagination-icon"
-                        />
-                        <img
-                            src="img/pagination-black.svg"
-                            alt="Icon: Pagination"
-                            class="pagination-icon"
-                        />
-                        <img
-                            src="img/pagination-black.svg"
-                            alt="Icon: Pagination"
-                            class="pagination-icon"
-                        />
-                    </span>
-                </div>
-            </section>
-            <div class="chats">
-                <section class="chat-user">
-                    <h2 class="chat-title">Чат с пользователем</h2>
-                    <div class="head-chat">
-                        <picture>
-                            <source
-                                type="image/webp"
-                                srcset="img/user-img.webp"
-                            />
-                            <source
-                                type="image/png"
-                                srcset="img/user-img.png"
-                            />
-                            <img
-                                src="img/user-img.png"
-                                alt="Image: user"
-                                class="img-user"
-                            />
-                        </picture>
-                        <div class="info-name">
-                            <span class="user-name bold"
-                                >Наталия Полянская</span
-                            >
-                            <span class="user-description"
-                                ><img src="img/flag.svg" alt="Icon: flag" />Гид
-                                по Баварии, фотограф</span
-                            >
-                        </div>
-                        <div class="stars">
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img src="img/Star.svg" alt="Icon: Star" />
-                        </div>
-                    </div>
-                    <div class="main-chat">
-                        <div class="info-message">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img.png"
-                                />
-                                <img
-                                    src="img/user-img.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <p class="message">
-                                Из достопримечательностей могу предложить
-                                обратить внимание на вулкан Майон, путешествие
-                                запомнится вам надолго хотя бы из-за невероятной
-                                сложности подъема на него. Поверьте, это стоит
-                                того; также хотелf бы отметить очень важную
-                                область исследования
-                            </p>
-                        </div>
-                        <span class="date-publications">Вчера в 17:45</span>
-                    </div>
-                    <div class="main-chat">
-                        <div class="info-message bacgr">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img-2.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img-2.png"
-                                />
-                                <img
-                                    src="img/user-img-2.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <p class="message">
-                                Что из себя представляет вулкан? Просто хочу
-                                убедиться, что готова к такому путешествию.
-                            </p>
-                        </div>
-                        <span class="date-publications">Вчера в 18:45</span>
-                    </div>
-                    <div class="main-chat">
-                        <div class="info-message scroll">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img.png"
-                                />
-                                <img
-                                    src="img/user-img.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <p class="message">
-                                Из достопримечательностей могу предложить
-                                обратить внимание на вулкан Майон, путешествие
-                                запомнится вам надолго хотя бы из-за невероятной
-                                сложности подъема на него. Поверьте, это стоит
-                                того; также хотелf бы отметить очень важную
-                                область исследования
-                            </p>
-                        </div>
-                        <span class="date-publications">Вчера в 17:45</span>
-                    </div>
-                    <div class="footer-chat">
-                        <picture>
-                            <source
-                                type="image/webp"
-                                srcset="img/user-img-2.webp"
-                            />
-                            <source
-                                type="image/png"
-                                srcset="img/user-img-2.png"
-                            />
-                            <img
-                                src="img/user-img-2.png"
-                                alt="Image: user"
-                                class="img-user"
-                            />
-                        </picture>
-                        <form action="#">
-                            <input
-                                type="text"
-                                placeholder="Напишите сообщение..."
-                                class="input-message"
-                            />
-                            <button type="submit" class="btn-submit">
-                                <img
-                                    src="img/submitsvg.svg"
-                                    alt="Icon: Submit"
-                                />
-                            </button>
-                        </form>
-                    </div>
-                </section>
-                <hr class="vertical-line" />
-                <section class="chat-user administrator">
-                    <h2 class="chat-title">Чат с администратором</h2>
-                    <div class="head-chat">
-                        <picture>
-                            <source
-                                type="image/webp"
-                                srcset="img/user-img.webp"
-                            />
-                            <source
-                                type="image/png"
-                                srcset="img/user-img.png"
-                            />
-                            <img
-                                src="img/user-img.png"
-                                alt="Image: user"
-                                class="img-user"
-                            />
-                        </picture>
-                        <div class="info-name">
-                            <span class="user-name bold">Администратор</span>
-                            <span class="user-description"
-                                ><img
-                                    src="img/flag.svg"
-                                    alt="Icon: flag"
-                                />TravelAsk</span
-                            >
-                        </div>
-                        <div class="stars">
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img
-                                src="img/full-star.svg"
-                                alt="Icon: Full star"
-                            />
-                            <img src="img/Star.svg" alt="Icon: Star" />
-                        </div>
-                    </div>
-                    <div class="main-chat">
-                        <div class="info-message">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img.png"
-                                />
-                                <img
-                                    src="img/user-img.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <p class="message">
-                                Из достопримечательностей могу предложить
-                                обратить внимание на вулкан Майон, путешествие
-                                запомнится вам надолго хотя бы из-за невероятной
-                                сложности подъема на него. Поверьте, это стоит
-                                того; также хотелf бы отметить очень важную
-                                область исследования
-                            </p>
-                        </div>
-                        <span class="date-publications">Вчера в 17:45</span>
-                    </div>
-                    <div class="main-chat">
-                        <div class="info-message bacgr">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img-2.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img-2.png"
-                                />
-                                <img
-                                    src="img/user-img-2.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <p class="message">
-                                Что из себя представляет вулкан? Просто хочу
-                                убедиться, что готова к такому путешествию.
-                            </p>
-                        </div>
-                        <span class="date-publications">Вчера в 18:45</span>
-                    </div>
-                    <div class="main-chat">
-                        <div class="info-message scroll">
-                            <picture>
-                                <source
-                                    type="image/webp"
-                                    srcset="img/user-img.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="img/user-img.png"
-                                />
-                                <img
-                                    src="img/user-img.png"
-                                    alt="Image: user"
-                                    class="img-user"
-                                />
-                            </picture>
-                            <p class="message">
-                                Из достопримечательностей могу предложить
-                                обратить внимание на вулкан Майон, путешествие
-                                запомнится вам надолго хотя бы из-за невероятной
-                                сложности подъема на него. Поверьте, это стоит
-                                того; также хотелf бы отметить очень важную
-                                область исследования
-                            </p>
-                        </div>
-                        <span class="date-publications">Вчера в 17:45</span>
-                    </div>
-                    <div class="footer-chat">
-                        <picture>
-                            <source
-                                type="image/webp"
-                                srcset="img/user-img-2.webp"
-                            />
-                            <source
-                                type="image/png"
-                                srcset="img/user-img-2.png"
-                            />
-                            <img
-                                src="img/user-img-2.png"
-                                alt="Image: user"
-                                class="img-user"
-                            />
-                        </picture>
-                        <form action="#">
-                            <input
-                                type="text"
-                                placeholder="Напишите сообщение..."
-                                class="input-message"
-                            />
-                            <button type="submit" class="btn-submit">
-                                <img
-                                    src="img/submitsvg.svg"
-                                    alt="Icon: Submit"
-                                />
-                            </button>
-                        </form>
-                    </div>
-                </section>
+      </main>
+    </div>
+    <div class="container">
+      <section class="feedback">
+        <h2 class="feedback-title">Отзывы о Барселоне</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="head-card">
+              <picture>
+                <source type="image/webp" srcset="img/user-img.webp" />
+                <source type="image/png" srcset="img/user-img.png" />
+                <img
+                  src="img/user-img.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <span class="user-name">Наталия Полянская</span>
             </div>
+            <div class="main-card">
+              <span class="card-title">
+                <span class="card-title red">БАРСЕЛОНА</span>
+                — О городе:
+              </span>
+              <p class="card-description">
+                Барселона – моя третья большая любовь, после Вены и Крита. Это
+                город, в который я каждый раз возвращаюсь с огромным
+                удовольствием, всем рекомендую хоть раз там побывать и осмотреть
+                ...
+              </p>
+              <div class="pop-up">
+                <picture>
+                  <source type="image/webp" srcset="img/card-img1.webp" />
+                  <source type="image/jpg" srcset="iimg/card-img1.jpg" />
+                  <img src="img/card-img1.jpg" alt="Img" class="card-img" />
+                </picture>
+                <picture>
+                  <source type="image/webp" srcset="img/card-img2.webp" />
+                  <source type="image/jpg" srcset="img/card-img2.jpg" />
+                  <img src="img/card-img2.jpg" alt="Img" class="card-img" />
+                </picture>
+                <picture>
+                  <source type="image/webp" srcset="img/card-img3.webp" />
+                  <source type="image/jpg" srcset="img/card-img3.jpg" />
+                  <img src="img/card-img3.jpg" alt="Img" class="card-img" />
+                </picture>
+                <div class="imgage-opacity">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="img/card-img4.webp"
+                      class="opacity"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="img/card-img4.jpg"
+                      class="opacity"
+                    />
+                    <img
+                      src="img/card-img4.jpg"
+                      alt="Img"
+                      class="card-img opacity"
+                    />
+                    <span class="image-text">+7</span>
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="footer-card">
+              <span class="date-publication">около 1 года назад</span>
+              <span class="comment">9 комментариев</span>
+              <span class="like"
+                ><img src="img/like.svg" alt="Icon: like" />9</span
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="head-card">
+              <picture>
+                <source type="image/webp" srcset="img/user-img.webp" />
+                <source type="image/png" srcset="img/user-img.png" />
+                <img
+                  src="img/user-img.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <span class="user-name">Elena Bulgakova</span>
+            </div>
+            <div class="main-card">
+              <span class="card-title">
+                <span class="card-title red">БАРСЕЛОНА</span>
+                — О городе:
+              </span>
+              <p class="card-description">
+                Плюсы города: весь город одни плюсы! Минусы города: не видела. В
+                наш марафон по Европе не вписалось 2 испанских города от
+                усталости - решили остаток путешествия провести в Барселоне ...
+              </p>
+              <div class="pop-up">
+                <picture>
+                  <source type="image/webp" srcset="img/card-img1.webp" />
+                  <source type="image/jpg" srcset="iimg/card-img1.jpg" />
+                  <img src="img/card-img1.jpg" alt="Img" class="card-img" />
+                </picture>
+                <picture>
+                  <source type="image/webp" srcset="img/card-img2.webp" />
+                  <source type="image/jpg" srcset="img/card-img2.jpg" />
+                  <img src="img/card-img2.jpg" alt="Img" class="card-img" />
+                </picture>
+                <picture>
+                  <source type="image/webp" srcset="img/card-img3.webp" />
+                  <source type="image/jpg" srcset="img/card-img3.jpg" />
+                  <img src="img/card-img3.jpg" alt="Img" class="card-img" />
+                </picture>
+                <div class="imgage-opacity">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="img/card-img4.webp"
+                      class="opacity"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="img/card-img4.jpg"
+                      class="opacity"
+                    />
+                    <img
+                      src="img/card-img4.jpg"
+                      alt="Img"
+                      class="card-img opacity"
+                    />
+                    <span class="image-text">+7</span>
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="footer-card">
+              <span class="date-publication">около 1 года назад</span>
+              <span class="comment">3 комментариев</span>
+              <span class="like"
+                ><img src="img/like.svg" alt="Icon: like" />7</span
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="head-card">
+              <picture>
+                <source type="image/webp" srcset="img/user-img.webp" />
+                <source type="image/png" srcset="img/user-img.png" />
+                <img
+                  src="img/user-img.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <span class="user-name">Наталия Полянская</span>
+            </div>
+            <div class="main-card">
+              <span class="card-title">
+                <span class="card-title red">БАРСЕЛОНА</span>
+                — О городе:
+              </span>
+              <p class="card-description">
+                Барселона – моя третья большая любовь, после Вены и Крита. Это
+                город, в который я каждый раз возвращаюсь с огромным
+                удовольствием, всем рекомендую хоть раз там побывать и осмотреть
+                ...
+              </p>
+              <div class="pop-up">
+                <picture>
+                  <source type="image/webp" srcset="img/card-img1.webp" />
+                  <source type="image/jpg" srcset="iimg/card-img1.jpg" />
+                  <img src="img/card-img1.jpg" alt="Img" class="card-img" />
+                </picture>
+                <picture>
+                  <source type="image/webp" srcset="img/card-img2.webp" />
+                  <source type="image/jpg" srcset="img/card-img2.jpg" />
+                  <img src="img/card-img2.jpg" alt="Img" class="card-img" />
+                </picture>
+                <picture>
+                  <source type="image/webp" srcset="img/card-img3.webp" />
+                  <source type="image/jpg" srcset="img/card-img3.jpg" />
+                  <img src="img/card-img3.jpg" alt="Img" class="card-img" />
+                </picture>
+                <div class="imgage-opacity">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="img/card-img4.webp"
+                      class="opacity"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="img/card-img4.jpg"
+                      class="opacity"
+                    />
+                    <img
+                      src="img/card-img4.jpg"
+                      alt="Img"
+                      class="card-img opacity"
+                    />
+                    <span class="image-text">+7</span>
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="footer-card">
+              <span class="date-publication">около 1 года назад</span>
+              <span class="comment">9 комментариев</span>
+              <span class="like"
+                ><img src="img/like.svg" alt="Icon: like" />9</span
+              >
+            </div>
+          </div>
         </div>
-    </body>
+        <div class="all-feedback">
+          <button class="btn-feedback">Все отзывы</button>
+          <span class="pagination">
+            <img
+              src="img/pagination-redsvg.svg"
+              alt="Icon: Pagination"
+              class="pagination-icon"
+            />
+            <img
+              src="img/pagination-black.svg"
+              alt="Icon: Pagination"
+              class="pagination-icon"
+            />
+            <img
+              src="img/pagination-black.svg"
+              alt="Icon: Pagination"
+              class="pagination-icon"
+            />
+            <img
+              src="img/pagination-black.svg"
+              alt="Icon: Pagination"
+              class="pagination-icon"
+            />
+            <img
+              src="img/pagination-black.svg"
+              alt="Icon: Pagination"
+              class="pagination-icon"
+            />
+          </span>
+        </div>
+      </section>
+      <div class="chats">
+        <section class="chat-user">
+          <h2 class="chat-title">Чат с пользователем</h2>
+          <div class="head-chat">
+            <picture>
+              <source type="image/webp" srcset="img/user-img.webp" />
+              <source type="image/png" srcset="img/user-img.png" />
+              <img src="img/user-img.png" alt="Image: user" class="img-user" />
+            </picture>
+            <div class="info-name">
+              <span class="user-name bold">Наталия Полянская</span>
+              <span class="user-description"
+                ><img src="img/flag.svg" alt="Icon: flag" />Гид по Баварии,
+                фотограф</span
+              >
+            </div>
+            <div class="stars">
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/Star.svg" alt="Icon: Star" />
+            </div>
+          </div>
+          <div class="main-chat">
+            <div class="info-message">
+              <picture>
+                <source type="image/webp" srcset="img/user-img.webp" />
+                <source type="image/png" srcset="img/user-img.png" />
+                <img
+                  src="img/user-img.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <p class="message">
+                Из достопримечательностей могу предложить обратить внимание на
+                вулкан Майон, путешествие запомнится вам надолго хотя бы из-за
+                невероятной сложности подъема на него. Поверьте, это стоит того;
+                также хотелf бы отметить очень важную область исследования
+              </p>
+            </div>
+            <span class="date-publications">Вчера в 17:45</span>
+          </div>
+          <div class="main-chat">
+            <div class="info-message bacgr">
+              <picture>
+                <source type="image/webp" srcset="img/user-img-2.webp" />
+                <source type="image/png" srcset="img/user-img-2.png" />
+                <img
+                  src="img/user-img-2.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <p class="message">
+                Что из себя представляет вулкан? Просто хочу убедиться, что
+                готова к такому путешествию.
+              </p>
+            </div>
+            <span class="date-publications">Вчера в 18:45</span>
+          </div>
+          <div class="main-chat">
+            <div class="info-message scroll">
+              <picture>
+                <source type="image/webp" srcset="img/user-img.webp" />
+                <source type="image/png" srcset="img/user-img.png" />
+                <img
+                  src="img/user-img.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <p class="message">
+                Из достопримечательностей могу предложить обратить внимание на
+                вулкан Майон, путешествие запомнится вам надолго хотя бы из-за
+                невероятной сложности подъема на него. Поверьте, это стоит того;
+                также хотелf бы отметить очень важную область исследования
+              </p>
+            </div>
+            <span class="date-publications">Вчера в 17:45</span>
+          </div>
+          <div class="footer-chat">
+            <picture>
+              <source type="image/webp" srcset="img/user-img-2.webp" />
+              <source type="image/png" srcset="img/user-img-2.png" />
+              <img
+                src="img/user-img-2.png"
+                alt="Image: user"
+                class="img-user"
+              />
+            </picture>
+            <form action="#">
+              <div class="form-wrapper">
+                <input
+                  type="text"
+                  placeholder="Напишите сообщение..."
+                  class="input-message"
+                />
+                <button type="submit" class="btn-submit">
+                  <img src="img/submitsvg.svg" alt="Icon: Submit" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <hr class="vertical-line" />
+        <section class="chat-user administrator">
+          <h2 class="chat-title">Чат с администратором</h2>
+          <div class="head-chat">
+            <picture>
+              <source type="image/webp" srcset="img/user-img.webp" />
+              <source type="image/png" srcset="img/user-img.png" />
+              <img src="img/user-img.png" alt="Image: user" class="img-user" />
+            </picture>
+            <div class="info-name">
+              <span class="user-name bold">Администратор</span>
+              <span class="user-description"
+                ><img src="img/flag.svg" alt="Icon: flag" />TravelAsk</span
+              >
+            </div>
+            <div class="stars">
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/full-star.svg" alt="Icon: Full star" />
+              <img src="img/Star.svg" alt="Icon: Star" />
+            </div>
+          </div>
+          <div class="main-chat">
+            <div class="info-message">
+              <picture>
+                <source type="image/webp" srcset="img/user-img.webp" />
+                <source type="image/png" srcset="img/user-img.png" />
+                <img
+                  src="img/user-img.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <p class="message">
+                Из достопримечательностей могу предложить обратить внимание на
+                вулкан Майон, путешествие запомнится вам надолго хотя бы из-за
+                невероятной сложности подъема на него. Поверьте, это стоит того;
+                также хотелf бы отметить очень важную область исследования
+              </p>
+            </div>
+            <span class="date-publications">Вчера в 17:45</span>
+          </div>
+          <div class="main-chat">
+            <div class="info-message bacgr">
+              <picture>
+                <source type="image/webp" srcset="img/user-img-2.webp" />
+                <source type="image/png" srcset="img/user-img-2.png" />
+                <img
+                  src="img/user-img-2.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <p class="message">
+                Что из себя представляет вулкан? Просто хочу убедиться, что
+                готова к такому путешествию.
+              </p>
+            </div>
+            <span class="date-publications">Вчера в 18:45</span>
+          </div>
+          <div class="main-chat">
+            <div class="info-message scroll">
+              <picture>
+                <source type="image/webp" srcset="img/user-img.webp" />
+                <source type="image/png" srcset="img/user-img.png" />
+                <img
+                  src="img/user-img.png"
+                  alt="Image: user"
+                  class="img-user"
+                />
+              </picture>
+              <p class="message">
+                Из достопримечательностей могу предложить обратить внимание на
+                вулкан Майон, путешествие запомнится вам надолго хотя бы из-за
+                невероятной сложности подъема на него. Поверьте, это стоит того;
+                также хотелf бы отметить очень важную область исследования
+              </p>
+            </div>
+            <span class="date-publications">Вчера в 17:45</span>
+          </div>
+          <div class="footer-chat">
+            <picture>
+              <source type="image/webp" srcset="img/user-img-2.webp" />
+              <source type="image/png" srcset="img/user-img-2.png" />
+              <img
+                src="img/user-img-2.png"
+                alt="Image: user"
+                class="img-user"
+              />
+            </picture>
+            <form action="#">
+              <div class="form-wrapper">
+                <input
+                  type="text"
+                  placeholder="Напишите сообщение..."
+                  class="input-message"
+                />
+                <button type="submit" class="btn-submit">
+                  <img src="img/submitsvg.svg" alt="Icon: Submit" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
